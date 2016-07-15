@@ -11,6 +11,14 @@ let _seedUsers = () => {
         name: { first: 'Big', last: 'Tuna' }
       },
       roles: [ 'admin' ]
+    },{
+      username: 'secret',
+      email: 'secret@admin.com',
+      password: 'password',
+      profile: {
+        name: { first: 'Secret', last: 'Secret' }
+      },
+      roles: [ 'admin' ]
     }]
   });
 };
