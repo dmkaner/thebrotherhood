@@ -1,0 +1,34 @@
+<template name="landing">
+  <body>
+
+    <div class="container">
+      <div class="center">
+        <div class="center2">
+          <h1 class="logoText">The Brotherhood</h1>
+        </div>
+      </div>
+      <div class="center4">
+        <form id="theForm">
+          <input type="text" name="loginCode" id="code" placeholder="FIND THE CODE" autocomplete="off" autofocus>
+          <br>
+          <input type="submit" id="codeSubmit" value="Login">
+        </form>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("theForm").onsubmit = function() {theFunction()};
+
+      function theFunction() {
+        var code = document.getElementById("code").value;
+        if (code == 1234){
+          FlowRouter.go('login');
+        } else {
+          alert("WRONG!");
+        }
+
+      }
+    </script>
+
+  </body>
+</template>

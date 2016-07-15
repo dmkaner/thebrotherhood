@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.intro{
+  color: grey;
+}
+.center {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 150px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+.center2 {
+  width: 290px;
+  height: 290px;
+  background-color: black;
+  border-radius: 145px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+.center3 {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 170px 0 0 -205px;
+}
+#codeSubmit{
+  margin: 10px 0 0 280px;
+  visibility: hidden;
+}
+#code{
+  height: auto;
+  color: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  border: 0px;
+  outline-color: white;
+}
+.logoText{
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+}
