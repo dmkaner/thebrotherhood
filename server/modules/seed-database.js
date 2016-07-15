@@ -4,19 +4,11 @@ let _seedUsers = () => {
   Seed( 'users', {
     environments: [ 'development', 'staging', 'production' ],
     data: [{
-      username: 'bigguy1991',
+      username: 'bigtuna',
       email: 'admin@admin.com',
       password: 'password',
       profile: {
-        name: { first: 'Carl', last: 'Winslow' }
-      },
-      roles: [ 'admin' ]
-    },{
-      username: 'beetsfan123',
-      email: 'doug@admin.com',
-      password: 'password',
-      profile: {
-        name: { first: 'Doug', last: 'Funnie' }
+        name: { first: 'Big', last: 'Tuna' }
       },
       roles: [ 'admin' ]
     }]
